@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- <div class="leading-score">
+            <p id="leader"></p>
+        </div> -->
+
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="display">
+                    <p id="score-display-home" class="score-display">0</p>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="display">
+                    <p id="score-display-guest" class="score-display">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+           <div class="home-btns">
+                <button onclick="plus1PointHome()">+1</button>
+                <button onclick="plus2PointsHome()">+2</button>
+                <button onclick="plus3PointsHome()">+3</button>
+           </div>
+           <div class="guest-btns">
+                <button onclick="plus1PointGuest()">+1</button>
+                <button onclick="plus2PointsGuest()">+2</button>
+                <button onclick="plus3PointsGuest()">+3</button>
+           </div>
+        </div>
+
+        <div class="new-game">
+            <button id="new-game-btn" onclick="newGame()">NEW GAME</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
